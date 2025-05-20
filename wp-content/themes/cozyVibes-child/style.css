@@ -1,0 +1,31 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: http://www.example.com/ 
+description: >-
+  A child theme for Twenty Twenty and the AMPJAM Blog
+Author: <your name>
+Author URI: http://example.com
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: child theme test
+Text Domain: twenty-twenty-child
+*/
+/* Custom CSS goes after this line */
+
+.post-inner{
+    margin-top: 60px;
+    background-color: pink;
+    padding: 60px 0 30px 0;
+}
+.entry-header-inner, .post-meta{
+    background-color: rgb(184, 151, 157);
+    padding: 30px 0;
+    margin: 0 auto;
+
+}
+.meta-text, .meta-text a, .entry-header-inner .svg-icon, .post-meta .svg-icon, .entry-header a, .entry-header .post-meta a {
+    color: pink;
+
+}
